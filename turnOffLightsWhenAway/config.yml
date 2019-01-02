@@ -1,0 +1,6 @@
+tado:
+    username: "TADO_USERNAME"
+    password: "TADO_PASSWORD"
+    secret: "TADO_CLIENT_SECRET"
+lifx:
+    token: "LIFX_TOKEN"
