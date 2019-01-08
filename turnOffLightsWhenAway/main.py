@@ -9,7 +9,7 @@ headers = {
 }
 
 def turnOffAllLights():
-    print("Turn offall  lights...")
+    print("Turn off all lights...")
     payload = {
         "power": "off",
     }
@@ -26,5 +26,5 @@ if __name__ == '__main__':
             isAtHome = True
 
     if not isAtHome:
-        print("Nobody's home. Turn off the lights !")
+        print("Nobody's home.")
         turnOffAllLights()
